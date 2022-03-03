@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2021-05-09T12:31:34+00:00" product-name="klaro_video">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.klaro_video_title">
+        <source>Embedded Video</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.klaro_video_description">
+        <source>If you use the Klaro cookiebanner you have to change the embed code for videos</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

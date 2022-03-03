@@ -1,0 +1,79 @@
+{
+    "tt_content": {
+		"elements": {
+			"klaro_video": {
+				"color": "#e32400",
+				"columns": ["tx_mask_youtube", "tx_mask_aspectratio", "image"],
+				"description": "If you use the Klaro cookiebanner you have to change the embed code for videos",
+				"icon": "fa-youtube-play",
+				"key": "klaro_video",
+				"label": "Embedded Video",
+				"labels": [
+					"YouTube-/Vimeo-Videocode",
+					"Video-Platform",
+					"Video Seitenverh\u00e4ltnis",
+					"Platzhalter-Bild"
+				],
+				"shortLabel": "Video for Klaro"
+			}
+		},
+		"sql": {
+			"tx_mask_aspectratio": {
+				"tt_content": {
+					"tx_mask_aspectratio": "tinytext"
+				}
+			},
+			"tx_mask_youtube": {
+				"tt_content": {
+					"tx_mask_youtube": "tinytext"
+				}
+			}
+		},
+		"tca": {
+			"tx_mask_aspectratio": {
+				"config": {
+					"autoSizeMax": "",
+					"fileFolder": "",
+					"fileFolder_extList": "",
+					"fileFolder_recursions": "",
+					"foreign_table": "",
+					"foreign_table_where": "",
+					"items": [
+						["16:9", "0"],
+						["4:3", "1"],
+						["21:9", "2"],
+						["1:1", "3"]
+					],
+					"maxitems": "",
+					"renderType": "selectSingle",
+					"size": "",
+					"type": "select"
+				},
+				"exclude": "1",
+				"key": "aspectratio",
+				"l10n_mode": ""
+			},
+			"tx_mask_youtube": {
+				"config": {
+					"default": "",
+					"eval": "",
+					"is_in": "",
+					"max": "",
+					"placeholder": "Last part of the URL",
+					"size": "",
+					"type": "input"
+				},
+				"exclude": "1",
+				"key": "youtube",
+				"l10n_mode": ""
+			}
+		}
+	},
+    "mask_export": {
+        "extensionName": "klaro_video",
+        "vendorName": "SKom",
+        "includedElements": [
+            "klaro_video"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+            klaro_video {
+                iconIdentifier = tx_klarovideo_klaro_video
+                title = LLL:EXT:klaro_video/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.klaro_video_title
+                description = LLL:EXT:klaro_video/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.klaro_video_description
+                tt_content_defValues {
+                    CType = klarovideo_klaro_video
+                }
+            }
+    }
+    show := addToList(klaro_video)
+}

@@ -1,0 +1,32 @@
+{
+    "name": "skom/klaro-video",
+    "description": "Embed YouTube- and Vimeo-Videos compatible with the klaro cookiebanner",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Sven Kalbhenn",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "version": "10.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+    },
+    "replace": {
+        "typo3-ter/klaro-video": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "SKom\\KlaroVideo\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "klaro_video"
+        }
+    }
+}

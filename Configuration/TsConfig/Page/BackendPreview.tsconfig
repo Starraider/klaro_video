@@ -1,0 +1,3 @@
+mod.web_layout.tt_content.preview.klarovideo.templateRootPath = EXT:klaro_video/Resources/Private/Backend/Templates/Content/
+mod.web_layout.tt_content.preview.klarovideo.layoutRootPath = EXT:klaro_video/Resources/Private/Backend/Layout/
+mod.web_layout.tt_content.preview.klarovideo.partialRootPath = EXT:klaro_video/Resources/Private/Backend/Partials/

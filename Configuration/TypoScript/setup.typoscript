@@ -1,0 +1,28 @@
+tt_content.klarovideo_klaro_video = FLUIDTEMPLATE
+tt_content.klarovideo_klaro_video {
+    layoutRootPaths {
+        0 = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements/
+        1 = EXT:klaro_video/Resources/Private/Layouts/
+        10 = {$plugin.tx_klarovideo.view.layoutRootPath}
+    }
+    partialRootPaths {
+        0 = EXT:bootstrap_package/Resources/Private/Partials/ContentElements/
+        1 = EXT:klaro_video/Resources/Private/Partials/
+        10 = {$plugin.tx_klarovideo.view.partialRootPath}
+    }
+    templateRootPaths {
+        0 = EXT:bootstrap_package/Resources/Private/Templates/ContentElements/
+        1 = EXT:klaro_video/Resources/Private/Templates/ContentElements/
+        10 = {$plugin.tx_klarovideo.view.templateRootPath}
+    }
+    templateName = KlaroVideo
+    dataProcessing.10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+    dataProcessing.10 {
+        if.isTrue.field = image
+        references {
+            fieldName = image
+            table = tt_content
+        }
+        as = data_image
+    }
+}

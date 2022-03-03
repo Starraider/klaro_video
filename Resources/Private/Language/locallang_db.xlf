@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2021-05-09T12:31:34+00:00" product-name="klaro_video">
+    <header/>
+    <body>
+      <trans-unit id="tt_content.tx_klarovideo_aspectratio">
+        <source>Video Seitenverhältnis</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klarovideo_youtube">
+        <source>YouTube-/Vimeo-Videocode</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klarovideo_aspectratio.I.0">
+        <source>16:9</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klarovideo_aspectratio.I.1">
+        <source>4:3</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klarovideo_aspectratio.I.2">
+        <source>21:9</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klarovideo_aspectratio.I.3">
+        <source>1:1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._klarovideo_">
+        <source>klaro_video</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.klarovideo_klaro_video">
+        <source>Embedded Video</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
